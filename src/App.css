@@ -1,0 +1,92 @@
+.App{
+  width:97%;
+}
+.navbar{
+  box-shadow: 0px 5px 15px #f1f1f1;
+}
+.dropdown-item a{
+  text-decoration: none;
+}
+.navbar-nav a:hover{
+  background-color: #f1f1f1;
+  color:red ;
+}
+.card{
+  background-color: #bbbbbb;
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+#forgotpass{cursor:pointer;}
+
+.nav-link-red{
+  background-color: red;
+}
+
+.leftalign {
+  text-align: left;
+}
+.itinerary{
+  text-align: left;
+}
+.zoom {
+  transition: transform .2s;
+  /* Animation */
+}
+.card-title centeralign{
+  text-align: center;
+}
+
+.card{
+  box-shadow: 0 0 50px gray;
+}
+.card-body{
+  background-color: #dddddd;
+}
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+@media (min-width: 992px) {
+  #intro-example {
+    height: 600px;
+  }
+}
+
+@media (max-width: 992px) {
+  .sidebar {
+    display: none;
+  }
+}
+thead{text-align: center;}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red; 
+}
+
+/* 
+.searchicon{position: relative;}
+.searchicon img{
+  width: 40px;
+  animation-name: drop;
+  animation-duration: 3s;
+  position: relative;
+  margin-left: 30px;
+}
+
+@keyframes drop {
+  0%   { left:0px; top:-40px;}
+  100% { left:0px; top:0px;}
+} */
